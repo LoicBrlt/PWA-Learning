@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+	overflow-x:hidden;
+	width: 100%;
+}
+.main-nav {
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    background: #8e44ad;
+    align-items: center;
+    padding: 10px 0;
+}
+.main-nav li:first-child {
+     margin-right: auto;
+}
+.main-nav li:last-child {
+    margin-right: 10px;
+}
+.main-nav a {
+    border-radius: 5px;
+
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+}
+.main-nav .logo {
+    display: block;
+}
+
+#intro {
+    background: #9b59b6;
+    text-align: center;
+    padding: 200px 0;
+    color: white;
+}
+
+#infos h2 {
+    padding: 20px;
+}
+#infos img {
+    width: 100%;
+    height: auto;
+}
+
+#parkings {
+    display: flex;
+    text-align: center;
+    margin: 40px 0;
+}
+@media all and (max-width: 700px) {
+	#parkings {
+		flex-direction: column;
+	}
+}
+#parkings > div {
+    flex: auto;
+}
+#parkings p {
+    margin: 10px 0;
+}
+#parkings img {
+	width: 70%;
+}
+
+footer {
+    background: #8e44ad;
+    padding: 10px;
+    color: white;
+}
